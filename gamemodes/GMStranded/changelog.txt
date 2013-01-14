@@ -1,0 +1,51 @@
+Chewgum
+
+Fixed:
+
+- Coughing Sounds on death.
+
+prop_dynamic
+
+Fixed:
+
+- Enabled mouse on help and unlock menu.
+- Cooking bug.
+- Needs bars, which would go negative.
+- Medicine healing to 200 health even when max is only 100. So adjusts for unlocked max health.
+- Scoreboard displaying skill level wrong. Thanks RaBBish.
+- Broken admin menu.
+- Rocks/Antlions/Antlion hills not being owned by world.
+- Some descriptions.
+- Changed table.merge to table.add for the rock and tree models. Thanks RaBBish/Neko.
+- Numerous minor bugs/exploits.
+
+Added:
+
+- Save/load function back in. Does not save food or plants anymore because of bugs.
+- Text on need bars.
+- Skill level requirements to weapon crafting.
+- !afk say command. Stops needs and freezes player.
+- Loot will fade in 3 minutes.
+- Some unlockables.
+- All smelt function.
+- Improved eating and drinking sounds.
+
+Changed:
+
+- Timed the smelting times to the amount of resources.
+- Bigger Icons to display names of combinations ( Not mouse hover so now the text fit lol ).
+- Changed pigeon to a crow.
+- Changed the way you drink. Better trace/different sound.
+- New plant models. (CS:S content)
+- Resource boxes and held entities can no longer hurt players.
+- Dropping all resources is now timed. Will wait to respawn until done with dropping by death.
+- Less seeds from eating food.
+- Hold attack while pressing e to disable basic processes like foraging/drinking etc. Thanks RaBBish.
+- Changed building models.
+- Plants and seeds are owned by the person who planted them. There has also been made a convar (gms_PlantLimit) specifying the number of plants a person can have.
+- Tribe menu and system. Thanks RaBBish.
+
+- Credits to RaBBish for sharing his code so I could add some more stuff.
+- Credits to everyone supporting us in the stranded 2.1 thread and offering us ideas and solutions.
+
+-prop_dynamic-

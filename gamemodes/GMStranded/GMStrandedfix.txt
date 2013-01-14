@@ -1,0 +1,11 @@
+- Enables people to disable the use protection on structures, plants, resourcedrops etc. through prop protection.
+- fixed a minor bug that would allow people to create multiple buildsites on reconnect.
+- fixed commands in the Admin Panel being useable in multiplayer.
+- fixed plantlimit (hopefully for good now).
+- fixed Drinking (finally :D).
+- (Drinking bug came back to haunt me >:D) This will fix you bottling water through the floor when an entity is in between. Thanks to Mikrowelle Bannana Deluxe for showing how to create the bug.
+- fixed players being able to salvage props they do not own or are not owned by their buddies.
+- fixed prohibiting stools.
+
+Installation Notes:
+Extract into Gamemodes folder. 

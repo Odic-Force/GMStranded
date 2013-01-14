@@ -1,0 +1,7 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"GMStranded"
+	"maps"		"^gms_"
+	"menusystem"	"1"
+}

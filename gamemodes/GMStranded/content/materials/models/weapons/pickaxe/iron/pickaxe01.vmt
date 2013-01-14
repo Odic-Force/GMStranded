@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\pickaxe\iron/iron"
+	"$bumpmap"      "models\weapons\pickaxe\iron/iron_n"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop"	"metal"
+}

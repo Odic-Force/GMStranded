@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\hatchet\copper/copper"
+                "$bumpmap" "models\weapons\hatchet\copper/copper_n"
+	"$normalmapalphaenvmapmask" "1"
+}

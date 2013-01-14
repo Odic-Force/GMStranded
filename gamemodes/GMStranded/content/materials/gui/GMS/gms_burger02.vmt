@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"gui/gms/gms_burger02"
+	"$ignorez"		1
+	"$vertexcolor" 		1
+	"$vertexalpha" 		1
+}
