@@ -551,7 +551,7 @@ function PROCESS:PlaySound()
 			 self.Owner:GetActiveWeapon():SendWeaponAnim(ACT_VM_HITCENTER)
 			 self.Owner:EmitSound(Sound("physics/glass/glass_bottle_impact_hard"..tostring(math.random(1,3))..".wav"))
 			 
-			 timer.Simple(1.5,self.PlaySound,self)
+			 timer.Simple(1.5,function() self:PlaySound(self) end)
 		 end
 end
 

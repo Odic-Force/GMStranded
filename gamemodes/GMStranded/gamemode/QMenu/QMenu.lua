@@ -144,7 +144,7 @@ function PANEL:Init( )
 		local Icon = vgui.Create( "SpawnIcon", self.IconList[k] )
 		Icon:SetModel(value)
 		Icon.DoClick = function( Icon ) RunConsoleCommand("gm_spawn", value, 0) end
-		Icon:SetIconSize( 64 ) 
+		//Icon:SetIconSize( 64 ) 
 		Icon:InvalidateLayout( true ) 
 		Icon:SetToolTip( Format( "%s", value ) ) 
 		self.IconList[k]:AddItem( Icon )

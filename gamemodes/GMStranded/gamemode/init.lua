@@ -20,6 +20,7 @@ AddCSLuaFile( "cl_scoreboard.lua" )
 AddCSLuaFile( "cl_panels.lua" )
 AddCSLuaFile( "unlocks.lua" )
 AddCSLuaFile( "combinations.lua" )
+AddCSLuaFile( "vgui/ToolMenuButton.lua" )
 
 --Processes
 include( 'processes.lua' )
@@ -363,7 +364,7 @@ function PlayerMeta:DropResource(resource,int)
 end
 
 function EntityMeta:SetResourceDropInfo(strType,int)
-	timer.Simple(0.5,function() self:SetResourceDropInfoInstant(self,strType,int) end)
+	timer.Simple(0.5,function() self:SetResourceDropInfoInstant(strType,int) end)
 end
 
 function EntityMeta:SetResourceDropInfoInstant(strType,int)

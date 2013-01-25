@@ -13,6 +13,9 @@ include( 'cl_panels.lua' )
 include( 'unlocks.lua' )
 --Combis
 include( 'combinations.lua' )
+--VGUI
+include( 'vgui/ToolMenuButton.lua' )
+
 
 --Clientside player variables
 

@@ -1380,7 +1380,7 @@ function SKIN:PaintButton( panel )
 		
 		if ( panel:GetDisabled() ) then
 			col = self.control_color_dark
-		elseif ( panel.Depressed || panel:GetSelected() ) then
+		elseif ( panel.Depressed/* || panel:GetSelected()*/ ) then
 			col = self.control_color_active
 		elseif ( panel.Hovered ) then
 			col = self.control_color_highlight
