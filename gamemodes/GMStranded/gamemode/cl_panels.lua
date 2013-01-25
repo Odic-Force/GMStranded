@@ -948,7 +948,7 @@ function PANEL:RefreshResources()
             lbl:SetSize(self:GetWide(),20)
             local val = string.gsub(k,"_"," ")
             lbl:SetText(val..":  "..v)
-            lbl:SetFont("ScoreboardText")
+            //lbl:SetFont("ScoreboardText")
             self.IntResources = self.IntResources + v
             self.Line = self.Line + 20
             table.insert(self.ResourceLabels,lbl)
@@ -962,7 +962,7 @@ function PANEL:RefreshResources()
 	lbl:SetPos(self.Tab,self.Line + 20)
     lbl:SetSize(self:GetWide(),20)
     lbl:SetText("Total:  "..self.IntResources.." / "..MaxResources)
-    lbl:SetFont("ScoreboardText")
+    //lbl:SetFont("ScoreboardText")
     table.insert(self.ResourceLabels,lbl)
 	
     if !self.Extended then 

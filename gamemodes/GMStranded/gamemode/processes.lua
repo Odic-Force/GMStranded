@@ -69,8 +69,12 @@ function PlayerMeta:DoProcess(name,time,data)
          
 		--Start think
          GAMEMODE.AddProcessThink(self.ProcessTable)
+		 
+		 local func = function()
+			GAMEMODE.StopProcess(self)
+		 end
 
-         timer.Create("GMS_ProcessTimer_"..self:UniqueID(),time, 1, GAMEMODE.StopProcess, self)
+         timer.Create("GMS_ProcessTimer_"..self:UniqueID(),time, 1, func)
 end
 
 function PlayerMeta:MakeProcessBar(name,time)
@@ -541,7 +545,7 @@ function PROCESS:OnStart()
 end
 
 function PROCESS:PlaySound()
-         if CurTime() - PROCESS.StartTime > PROCESS.Time then return end
+         if CurTime() - self.StartTime > self.Time then return end
          
 		 if self.Owner:Alive() then
 			 self.Owner:GetActiveWeapon():SendWeaponAnim(ACT_VM_HITCENTER)
